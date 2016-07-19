@@ -1,0 +1,54 @@
+.main
+{
+  width: 80%;
+  margin: auto;
+  background-color: red;
+  overflow: hidden;
+}
+
+.sub,aside
+{
+  height: 600px;
+}
+
+.imp a:hover
+{
+  text-decoration: none;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.imp a
+{
+  text-decoration: none;
+}
+
+.imp li
+{
+  display: inline;
+
+}
+
+.sub
+{
+  background:orange;
+  float:left;
+  width: 70%;
+}
+
+aside
+{
+  float:left;
+  background: cyan;
+  width: 30%;
+
+}
+aside ul
+ {
+  padding-left: 0px;
+  list-style: none;
+}
+footer
+{
+  clear: both;
+}
