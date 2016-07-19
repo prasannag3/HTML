@@ -1,0 +1,24 @@
+a{
+  color:rgb(100,200,50); text-decoration:none;
+}
+h1,h2
+{
+  font-family:arial
+}
+div{
+  width: 500px;
+  background: cyan;
+  margin: auto;
+  text-align: center;
+}
+.page
+{
+  width: 500px;
+  background: cyan;
+  margin: auto;
+  text-align: left;
+}
+#abc li:nth-child(3)
+{
+  color: red;
+}
