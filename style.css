@@ -7,18 +7,23 @@ h1,h2
 }
 div{
   width: 500px;
-  background: cyan;
+  background: #e3e3e3;
   margin: auto;
   text-align: center;
 }
 .page
 {
   width: 500px;
-  background: cyan;
+  background: #e3e3e3;
   margin: auto;
   text-align: left;
 }
 #abc li:nth-child(3)
 {
   color: red;
+}
+#abc
+{
+  border:1px solid white;
+  text-align: center;
 }
