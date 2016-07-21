@@ -1,0 +1,55 @@
+h1
+{
+  margin: auto;
+}
+
+body
+{
+  background-color: #e3e3e3;
+}
+
+header
+{
+  padding: 4px;
+  margin-top:-20px;
+  width: 100%;
+  position: fixed;
+  top: 15px;
+  background-color:grey;
+}
+
+.main
+{
+  margin-top: 50px;
+  height: 200%;
+}
+nav li
+{
+  display: inline;
+  text-decoration:none;
+  padding-left: 4px;
+  padding: 2px;
+}
+.container_12
+{
+  margin-top: 25px;
+  background: cyan;
+  padding-top: 25px;
+}
+
+.sect{
+  margin-top: 200px;
+}
+section
+{
+  box-sizing: border-box;
+}
+aside
+{
+  background: green;
+}
+
+.primary
+{
+  background: #e3e3e3;
+}

@@ -1,0 +1,63 @@
+body
+{
+  width:600px;
+  margin: 20px auto;
+}
+h2
+{
+  margin: 0;
+}
+article img
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.pre
+{
+  float: right;
+  width: 360px;
+  text-align: justify;
+}
+
+.meta li
+{
+  display:inline-block;
+  padding-left: : 0px;
+  }
+
+a
+{
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #784;
+}
+
+.meta li:after
+{
+  content: '\\';
+  padding: 0 2px;
+  color: #999;
+}
+
+.meta li:last-child:after
+{
+  content: none;
+}
+.cont
+{
+  float: right;
+}
+.cont:after
+{
+  content: ')'
+}
+
+.cont:before
+{
+  content: '('
+}

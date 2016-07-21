@@ -1,0 +1,98 @@
+header h1
+{
+  text-shadow: 2px 2px 6px;
+}
+ .image {
+   position: relative;
+   top: 80px;
+   width: 100%;
+}
+.image1 {
+   position: relative;
+}
+.primary section h2{
+  position: absolute;
+}
+.hero h2 {
+  position:relative;
+   top: -300px;
+   width: 40%;
+   float:right;
+}
+
+.primary section h2{
+  text-align: center;
+}
+.para{
+  font-size: 18px;
+  font-style: oblique;;
+  text-align:center;;
+}
+p{
+  text-align: justify;
+}
+h2 span{
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1PX;
+   /*background: rgb(0, 0, 0);*/
+   background: rgba(0, 0, 0, 0.2);
+   padding: 10px;
+}
+
+body
+{
+  background-color: #87bdd8;
+}
+
+header
+{
+  position:fixed;
+  margin-top:-20px;
+  top: 15px;
+  margin-right: 15px;
+  background-color:#87bdd8;
+  z-index:9999;
+}
+
+.primary, .sect
+{
+  margin-top: 100px;
+  height: 50%;
+}
+
+nav li
+{
+  display: inline;
+  text-decoration:none;
+  margin-top: 12px;
+  margin-right: 3px;
+  padding: 2px;
+}
+
+.ref, .para a {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li a
+{
+  text-decoration:none;
+  font-size: 18px;
+}
+
+aside
+{
+  background: green;
+}
+
+.primary section
+{
+
+  background: #5b9aa0;
+  height: 70%;
+}
+footer
+{
+  margin-top: 150px;
+}

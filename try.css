@@ -1,0 +1,21 @@
+.div1
+{
+  background:red;
+  width:20%;
+  float: left;
+}
+
+.div2
+{
+  background:blue;
+  width:20%;
+  float: right;
+}
+
+.div3
+{
+  background:green;
+  width:40%;
+  overflow: hidden;
+  clear: both;
+}
