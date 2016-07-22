@@ -1,21 +1,24 @@
 header h1
 {
   text-shadow: 2px 2px 6px;
+  margin-left:15px;
+  font-family: 'Shadows Into Light', cursive;
+  text-transform: uppercase;
+  float: left;
 }
  .image {
    position: relative;
    top: 80px;
    width: 100%;
 }
-.image1 {
-   position: relative;
-}
+
 .primary section h2{
   position: absolute;
 }
 .hero h2 {
   position:relative;
-   top: -300px;
+   top: -500px;
+   left: -75px;
    width: 40%;
    float:right;
 }
@@ -24,9 +27,10 @@ header h1
   text-align: center;
 }
 .para{
-  font-size: 18px;
-  font-style: oblique;;
-  text-align:center;;
+  font-size: 20px;
+  text-align:center;
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light', cursive;
 }
 p{
   text-align: justify;
@@ -44,46 +48,45 @@ body
 {
   background-color: #87bdd8;
 }
-.para p
-{
-  margin-right: 25px;
-}
+
 header
 {
   position:fixed;
-  margin-top:-20px;
-  top: 15px;
-  /*margin-left: -190px;*/
+  margin-top:-10px;
+  top: 0px;
   background-color:#87bdd8;
+ margin: auto;
   z-index:9999;
-  /*width: 1500px;*/
-
 }
 
-
-.primary, .sect
+.sect1{
+  margin-top:80px;
+  height: 50%;
+}
+.sect{
+  margin-top: 240px;
+  height: 50%;
+}
+.primary
 {
-  margin-top: 100px;
+  margin-top: 150px;
   height: 50%;
 }
 
+nav ul
+{
+  float: right;
+}
 nav li
 {
   display: inline;
   text-decoration:none;
   margin-top: 12px;
-  margin-right: 3px;
+  margin-right: 6px;
   padding: 2px;
 }
-li a:hover
-{
-  color: #784;
-}
 
-.ref a {
-    float: right;
-}
-.ref a, .para a {
+.ref, .para a {
     text-decoration: none;
     text-align: center;
 }
@@ -94,21 +97,16 @@ nav li a
   font-size: 18px;
 }
 
-aside
-{
-  background: green;
-}
 
 .primary section
 {
 
-  background: #5b9aa0;
+  background:;
   height: 70%;
 }
-
 .footer{
   border: 1px solid white;
-  margin-top: 150px;
+  margin-top: 50px;
   background: white;
 }
 .footer ul li
@@ -125,10 +123,9 @@ li a:hover
   color: #784;
 
 }
-
 .foot li:after
 {
-  content: '\\\\';
+  content: '\\';
   padding: 0 2px;
   color: black;
 }
@@ -136,4 +133,17 @@ li a:hover
 .footer li:last-child:after
 {
   content: none;
+}
+.cont
+{
+  float: right;
+}
+.cont:after
+{
+  content: ')'
+}
+
+.cont:before
+{
+  content: '('
 }
