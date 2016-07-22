@@ -1,6 +1,8 @@
 header h1
 {
   text-shadow: 2px 2px 6px;
+  font-family: 'Shadows Into Light', cursive;
+  float: left;
 }
  .image {
    position: relative;
@@ -23,13 +25,19 @@ header h1
 .primary section h2{
   text-align: center;
 }
+
+.para a{
+  font-style: normal;
+}
 .para{
   font-size: 18px;
-  font-style: oblique;;
-  text-align:center;;
+  text-align:center;
+  font-family: 'Shadows Into Light', cursive;
 }
 p{
   text-align: justify;
+  font-family: 'Katibeh', cursive;
+  font-size: 20px;
 }
 h2 span{
    color: white;
@@ -53,17 +61,21 @@ header
   position:fixed;
   margin-top:-20px;
   top: 15px;
-  /*margin-left: -190px;*/
   background-color:#87bdd8;
+  padding-left: 150px;
+  margin: auto;
   z-index:9999;
-  /*width: 1500px;*/
+  width: 1500px;
+  left: -250px;
+  top: -10px;
+  margin-left: 250px;
 
 }
 
 
-.primary, .sect
+.primary,.sect
 {
-  margin-top: 100px;
+  margin-top: 150px;
   height: 50%;
 }
 
@@ -108,8 +120,9 @@ aside
 
 .footer{
   border: 1px solid white;
-  margin-top: 150px;
+  margin-top: 180px;
   background: white;
+  height: 8%;
 }
 .footer ul li
 {
@@ -120,15 +133,24 @@ aside
 li a{
       text-decoration:none;
 }
-li a:hover
+.para a:hover
+{
+  color: red;
+}
+
+li a:hover,.ref a:hover
 {
   color: #784;
 
 }
-
+.f1
+{
+  float: right;
+  margin-right: -180px;
+}
 .foot li:after
 {
-  content: '\\\\';
+  content: '/ ';
   padding: 0 2px;
   color: black;
 }

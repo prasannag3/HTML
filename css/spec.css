@@ -15,6 +15,7 @@ header h1
 .primary section h2{
   position: absolute;
 }
+
 .hero h2 {
   position:relative;
    top: -500px;
@@ -22,6 +23,15 @@ header h1
    width: 40%;
    float:right;
 }
+
+.hero h3 {
+  position:relative;
+   top: -600px;
+   left: -250px;
+   width: 40%;
+   float:right;
+}
+
 
 .primary section h2{
   text-align: center;
@@ -34,6 +44,15 @@ header h1
 }
 p{
   text-align: justify;
+font-family: 'Katibeh', cursive;
+font-size: 20px;
+}
+blockquote{
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1PX;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px;
 }
 h2 span{
    color: white;
@@ -46,25 +65,34 @@ h2 span{
 
 body
 {
-  background-color: #87bdd8;
+  background-color: silver;
 }
 
 header
 {
   position:fixed;
-  margin-top:-10px;
-  top: 0px;
+  margin-top:-20px;
+  top: 15px;
   background-color:#87bdd8;
- margin: auto;
+  padding-left: 150px;
+  margin: auto;
   z-index:9999;
+  width: 1500px;
+  left: -250px;
+  top: -10px;
+  margin-left: 250px;
 }
+.bl{
+  font-size: 40px;
+  font-style: oblique;
 
+}
 .sect1{
   margin-top:80px;
   height: 50%;
 }
 .sect{
-  margin-top: 240px;
+  margin-top: 310px;
   height: 50%;
 }
 .primary
@@ -86,7 +114,7 @@ nav li
   padding: 2px;
 }
 
-.ref, .para a {
+.ref, .para p a,section a{
     text-decoration: none;
     text-align: center;
 }
@@ -94,6 +122,7 @@ nav li
 nav li a
 {
   text-decoration:none;
+  padding: 1px;
   font-size: 18px;
 }
 
@@ -108,6 +137,7 @@ nav li a
   border: 1px solid white;
   margin-top: 50px;
   background: white;
+  height: 8%;
 }
 .footer ul li
 {
@@ -123,10 +153,15 @@ li a:hover
   color: #784;
 
 }
+.f1
+{
+  float: right;
+  margin-right: -180px;
+}
 .foot li:after
 {
-  content: '\\';
-  padding: 0 2px;
+  content: '/';
+  padding: 0 1px;
   color: black;
 }
 
