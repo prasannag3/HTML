@@ -16,7 +16,7 @@ header h1
   position: absolute;
 }
 
-.hero h2 {
+.hero1 h2 {
   position:relative;
    top: -500px;
    left: -75px;
@@ -24,7 +24,7 @@ header h1
    float:right;
 }
 
-.hero h3 {
+.hero1 h3 {
   position:relative;
    top: -600px;
    left: -250px;
@@ -91,20 +91,18 @@ header
   margin-top:80px;
   height: 50%;
 }
-.sect{
+.sect2{
   margin-top: 310px;
   height: 50%;
 }
+
 .primary
 {
   margin-top: 150px;
   height: 50%;
 }
 
-nav ul
-{
-  float: right;
-}
+
 nav li
 {
   display: inline;
@@ -169,16 +167,8 @@ li a:hover
 {
   content: none;
 }
-.cont
-{
-  float: right;
-}
-.cont:after
-{
-  content: ')'
-}
-
-.cont:before
-{
-  content: '('
+.foot li a{
+  font-size: 14px;
+  font-family: sans-serif;
+  color: grey;
 }

@@ -14,6 +14,7 @@ header h1
 }
 .primary section h2{
   position: absolute;
+    text-align: center;
 }
 .hero h2 {
   position:relative;
@@ -22,9 +23,6 @@ header h1
    float:right;
 }
 
-.primary section h2{
-  text-align: center;
-}
 
 .para a{
   font-style: normal;
@@ -95,20 +93,14 @@ li a:hover
 .ref a {
     float: right;
 }
-.ref a, .para a {
+.ref a, .para a,section a {
     text-decoration: none;
     text-align: center;
 }
 
-nav li a
-{
+nav li a,.frm li{
   text-decoration:none;
   font-size: 18px;
-}
-
-aside
-{
-  background: green;
 }
 
 .primary section
@@ -124,13 +116,25 @@ aside
   background: white;
   height: 8%;
 }
-.footer ul li
+.footer1{
+  border: 1px solid white;
+  margin-top: 50px;
+  background: white;
+  height: 8%;
+}
+.footer2{
+  border: 1px solid white;
+  margin-top: 30px;
+  background: white;
+  height: 8%;
+}
+.footer ul li, .footer1 ul li,.footer2 ul li
 {
   display: inline;
   text-decoration:none;
   margin: auto;
 }
-li a{
+li a, p a{
       text-decoration:none;
 }
 .para a:hover
@@ -148,6 +152,11 @@ li a:hover,.ref a:hover
   float: right;
   margin-right: -180px;
 }
+.foot li a{
+  font-size: 14px;
+  font-family: sans-serif;
+  color: grey;
+}
 .foot li:after
 {
   content: '/ ';
@@ -155,7 +164,70 @@ li a:hover,.ref a:hover
   color: black;
 }
 
-.footer li:last-child:after
+.footer li:last-child:after,.footer1 li:last-child:after,.footer2 li:last-child:after
 {
   content: none;
+}
+p a
+{
+  float: right;
+}
+p a:after
+{
+  content: ')'
+}
+
+p a:before
+{
+  content: '('
+}
+
+/* page 2*/
+.hero1 h2 {
+  position:relative;
+   top: -500px;
+   left: -75px;
+   width: 40%;
+   float:right;
+}
+
+.hero1 h3 {
+  position:relative;
+   top: -600px;
+   left: -250px;
+   width: 40%;
+   float:right;
+}
+
+
+.bl{
+  font-size: 40px;
+  font-style: oblique;
+
+}
+.sect1{
+  margin-top:80px;
+  height: 50%;
+}
+.sect2{
+  margin-top: 310px;
+  height: 50%;
+}
+
+blockquote{
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1PX;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.imager img, .image1{
+transition: all 0.5s ease;
+box-shadow: 5px 5px 5px #111;
+}
+
+.imager img:hover{
+  border: 0px solid #000;
+   border-radius: 50%;
 }
