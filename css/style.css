@@ -1,16 +1,36 @@
-header h1
+.herob
+{
+  background:url('../images/he1.jpg') no-repeat;
+  width: 1122px;
+  height:100%;
+  position: relative;
+  background-attachment: fixed;
+  }
+
+  .herob h2 {
+    position:absolute;
+     top: 20%;
+     left: 60%;
+     width: 50%;
+     float:left;
+  }
+
+  header h1
 {
   text-shadow: 2px 2px 6px;
   font-family: 'Shadows Into Light', cursive;
   float: left;
 }
- .image {
+ .image{
    position: relative;
    top: 80px;
    width: 100%;
+   height: 100%;
 }
-.image1 {
+.image1,.imager img  {
    position: relative;
+   width:100%; height:100%;
+
 }
 .primary section h2{
   position: absolute;
@@ -18,7 +38,7 @@ header h1
 }
 .hero h2 {
   position:relative;
-   top: -300px;
+   top: -350px;
    width: 40%;
    float:right;
 }
@@ -45,7 +65,11 @@ h2 span{
    background: rgba(0, 0, 0, 0.2);
    padding: 10px;
 }
+.para3{
+  float: right;
+  font-size: 24px;
 
+}
 body
 {
   background-color: #87bdd8;
@@ -73,17 +97,20 @@ header
 
 .primary,.sect
 {
-  margin-top: 150px;
+  margin-top: 190px;
   height: 50%;
 }
 
+nav ul{
+  margin-top: 35px;
+}
 nav li
 {
   display: inline;
   text-decoration:none;
   margin-top: 12px;
   margin-right: 3px;
-  padding: 2px;
+  padding: 4px;
 }
 li a:hover
 {
@@ -152,7 +179,7 @@ li a:hover,.ref a:hover
   float: right;
   margin-right: -180px;
 }
-.foot li a{
+.foot li a,{
   font-size: 14px;
   font-family: sans-serif;
   color: grey;
@@ -193,18 +220,17 @@ p a:before
 
 .hero1 h3 {
   position:relative;
-   top: -600px;
+   top: -500px;
    left: -250px;
    width: 40%;
    float:right;
 }
 
-
-.bl{
-  font-size: 40px;
-  font-style: oblique;
-
+.f1 img{
+  width: 32px;
+  height: 32;
 }
+
 .sect1{
   margin-top:80px;
   height: 50%;
